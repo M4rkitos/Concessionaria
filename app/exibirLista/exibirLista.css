@@ -1,0 +1,60 @@
+h1 {
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead {
+    background-color: #646464;
+}
+
+th {
+    text-transform: uppercase;
+    padding: 12px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+tbody {
+    background-color: #bebebe;
+}
+
+tr {
+    border-bottom: 1px solid #646464;
+}
+
+td {
+    padding: 12px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+td a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #830000;
+    color: white; 
+    text-decoration: none;
+    border: 2px solid #830000;
+    font-size: 14px;
+    transition: all 0.3s ease;
+}
+
+td a:hover {
+    background-color: white;
+    color: #830000;
+    border: 2px solid #830000;
+    text-decoration: none;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: white;
+    margin: 10px 0;
+}
